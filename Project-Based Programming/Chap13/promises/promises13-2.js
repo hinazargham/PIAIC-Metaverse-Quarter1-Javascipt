@@ -1,6 +1,5 @@
 // Practice exercise 13.2
 
-
 // if selected resolve
 const promise = new Promise( 
    (resolve, reject) => resolve("Start Counting!")

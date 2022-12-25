@@ -19,7 +19,6 @@ promise.then(function(result) {
 } , function (error){
     console.log("Error: ", error);
 
-
 })
 
 const promise2 = new Promise(function(resolve, reject) { // two parameters resolve and reject

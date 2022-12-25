@@ -1,3 +1,6 @@
+
+// Book Example:
+
 function pakistan(grade) {
     switch (true) {
         case grade === "A+":
@@ -66,6 +69,6 @@ function getGrade(percentage, callback){
     callback(grade);
 }
 
-getGrade(30, pakistan)
-getGrade(30, unitedstates)
+getGrade(75, pakistan)
+getGrade(75, unitedstates)
 
